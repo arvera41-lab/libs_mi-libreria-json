@@ -1,0 +1,22 @@
+{
+  "name": "@balda/json-db-service",
+  "version": "1.0.0",
+  "description": "Librería corporativa para manejo y persistencia de archivos JSON",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "database",
+    "tokens",
+    "corporate"
+  ],
+  "author": "baldaire / Empresa",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

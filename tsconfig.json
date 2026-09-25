@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "CommonJS",
+    "lib": ["ES2022"],
+    "declaration": true,           // 👈 OBLIGATORIO: Genera los archivos de autocompletado (.d.ts) para tus compañeros
+    "outDir": "./dist",            // 👈 Carpeta donde se guardará el código JavaScript compilado final
+    "rootDir": "./src",            // 👈 Carpeta donde escribirás tu código fuente TypeScript
+    "strict": true,                // 👈 Habilita el tipado estricto para evitar errores silenciosos
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]          // 👈 Le dice a TypeScript que solo compile lo que esté dentro de src
+}
